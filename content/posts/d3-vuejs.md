@@ -13,6 +13,8 @@ tags:
 
 In this blog, I will describe how you can integrate D3 into Vue.js. D3 is a popular JavaScript library for visualising data using web standards (HTML, CSS, JavaScript, and SVG). Vue.js is a rising [star](https://hasvuepassedreactyet.surge.sh/) in the front-end and has lately gained a lot of popularity in the web development scene. It’s a front-end framework similar to React and Angular and allows you to build scalable user interfaces.
 
+![D3.js and Vue.JS](https://res.cloudinary.com/dmim37dbf/image/upload/v1552855223/d3_vuejs.png)
+
 > _I’m learning D3 as I go, and I’ve used Vue.js a lot in the last few months, I thought it would be good to practice how I can combine the two. I’m still learning and improving my D3 skills so I think that if I revisit this post in a few months I’ll see mistakes or things I would change, so please highlight any issues or suggestions in the comments below._
 
 I borrowed the chart that I’m recreating for this blog post from [Elijah Meeks](https://medium.com/@Elijah_Meeks) (image below), who wrote an excellent book about D3.js called [‘D3.js in Action’](https://www.amazon.com/D3-js-Action-Data-visualization-JavaScript/dp/1617294489/ref=sr_1_2?ie=UTF8&qid=1546022089&sr=8-2). If you want to learn more about this JavaScript library then this should be your first stop (so yeah, definitely buy this one).

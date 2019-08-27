@@ -1,16 +1,18 @@
 ---
 title: How to quickly scaffold a Tableau Extensions Manifest file
-date: 2019-08-24 15:00:00
-template: post
+date: "2019-08-23T23:46:37.121Z"
+template: "post"
 draft: false
-description: One of the first things you need to do when you start developing a Tableau Extension is to create a manifest file. Until now there was no quick way to quickly create this file. You had to go the the Tableau Github page and copy the contents of the sample file. However, after some quick dev-ing I created a CLI (command line interface) tool that you can use to rapidly scaffold such a file.
-socialImage: https://theinformationlab.co.uk/wp-content/uploads/2019/08/manifestImage.png
-category: "Tableau"
+category: "tableau"
 tags:
   - tableau
+  - alteryx
   - javascript
-  - extensions
+description: "One of the first things you need to do when you start developing a Tableau Extension is to create a manifest file. Until now there was no quick way to quickly create this file. You had to go the the Tableau Github page and copy the contents of the sample file. However, after some quick dev-ing I created a CLI (command line interface) tool that you can use to rapidly scaffold such a file."
+socialImage: "https://theinformationlab.co.uk/wp-content/uploads/2019/08/manifestImage.png"
 ---
+
+![How to quickly scaffold a Tableau Extensions Manifest file](https://theinformationlab.co.uk/wp-content/uploads/2019/08/manifestImage.png)
 
 ### One of the first things you need to do when you start developing a Tableau Extension is to create a manifest file. Until now there was no quick way to quickly create this file. You had to go the the Tableau Github page and copy the contents of the sample file. However, after some quick dev-ing I created a CLI (command line interface) tool that you can use to rapidly scaffold such a file.
 

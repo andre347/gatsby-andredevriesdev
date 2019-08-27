@@ -15,6 +15,8 @@ tags:
 
 Ever since learning JavaScript I've been struggling with how I can export and reference variables, functions and JS objects from one file to another. I think I've got it now, so this is a good moment to outline how and when you use these exports and what the main differences are. Let's also look at how we traditionally (pre-ES6) used functions and variables from multiple files.
 
+![ES6: Default vs Named Exports](https://res.cloudinary.com/dmim37dbf/image/upload/v1552471685/import_export.png)
+
 ## What are imports and exports?
 
 In the [official MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/export) we read the following definition of import and exports:

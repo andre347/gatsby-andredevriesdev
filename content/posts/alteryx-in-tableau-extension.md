@@ -13,6 +13,8 @@ tags:
 
 Ever wanted to execute your Alteryx workflows or analytic apps from within your Tableau dashboard? _Now you can with the Run Alteryx in Tableau Extension!_
 
+![How to Run Alteryx in a Tableau Dashboard](https://cdn-images-1.medium.com/max/1600/1*gZkBJWwNX5P6Lipkox_d9Q.png)
+
 What you'll need in order to use this extension is Alteryx (obvs) Designer & Server. You also need to use a version of Tableau that supports the use of extensions (2018.2+)
 
 Want to see this extension in action? Watch the video below

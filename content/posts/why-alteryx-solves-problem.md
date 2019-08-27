@@ -14,6 +14,8 @@ tags:
 
 # Why Alteryx solves your Problems – Andre de Vries – Medium
 
+![Why Alteryx solves your Problems](https://cdn-images-1.medium.com/max/1600/1*V6_D53sRu89JubiXRHeCKg.jpeg)
+
 ## How retracing and iterating backwards from your solution to your problem can be used within Alteryx
 
 ![][2]

@@ -13,13 +13,15 @@ tags:
 
 ### Tableau Public is a great platform for showcasing your data visualisations. Now you can also start analysing the data about all your visualisations with a new web data connector (WDC) that I created. With the Tableau Public WDC you will be able to get insight into the number of views, favourites and other information related to your published dashboards.
 
-<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.theinformationlab.co.uk/wp-content/uploads/2019/05/Screenshot-2019-05-31-at-16.58.21.png" alt="" class="wp-image-13839"/><figcaption>Check it out <a href="https://tableau-public.wdc.dev/">here</a>!</figcaption></figure></div>
+![Web Data Connector for Tableau Public](https://theinformationlab.co.uk/wp-content/uploads/2019/05/Web-Data-Connector.png)
 
 ## For anyone that wants to jump in immediately:
 
 <ol><li>Copy this link: <a href="https://tableau-public.wdc.dev/">https://tableau-public.wdc.dev/</a></li><li>Open up Tableau and click 'Web Data Connector'. You can use any version since v9.1. This is the version where Web Data Connectors were introduced.</li><li>Find your Tableau Public Username. If you go to your Tableau Public page you can find it in the URL.</li><li>Enter your username and Tableau will start getting your profile data!</li></ol>
 
 <p>If you get stuck please click on the 'About' tab on the WDC page to read a step-by-step instruction on how to find your Tableau Public account.</p>
+
+<div class="wp-block-image"><figure class="aligncenter"><img src="https://www.theinformationlab.co.uk/wp-content/uploads/2019/05/Screenshot-2019-05-31-at-16.58.21.png" alt="" class="wp-image-13839"/><figcaption>Check it out <a href="https://tableau-public.wdc.dev/">here</a>!</figcaption></figure></div>
 
 ## Background to the WDC:
 

@@ -13,6 +13,8 @@ tags:
 
 In this blogpost I will walk you through building your first Tableau dashboard extension. It is aimed at those that have no prior experience with creating extensions. I'll explain my setup for building them and then we will build a basic extension that allows you to auto refresh your dashboard on a timer. This could be useful for when you are publicly displaying a dashboard and it needs a regular data refresh. This process would then be automated.
 
+![Build your first Tableau Dashboard Extension](https://www.theinformationlab.co.uk/wp-content/uploads/2018/10/extensionBlog.png)
+
 ### Intro
 
 With Tableau Dashboard Extensions you are building web applications that have two-way communication with your dashboard. These extensions are dashboard objects, similar to containers and images. You have to be on version 2018.2 of Tableau in order to use extensions.
@@ -56,6 +58,8 @@ If you're following along then copy [this](https://gist.github.com/andre347/b73f
 Excellent. Let's now write some JavaScript so we can start working with the Extension API. Copy [this](https://gist.github.com/andre347/4605eb9f887329052316162f8c8c7b79) into your app.js file.
 
 At this point you want to read how you can enable remote debugging. This is where Chromium comes in. Head over to the Tableau documentation, and follow [these steps](https://tableau.github.io/extensions-api/docs/trex_debugging.html). Make sure you open an instance of Tableau through the terminal/command line because that enables you to do remote debugging. After you've established a connection between your dashboard and Chromium you should be able to see the name of your dashboard in the web console.
+
+**Edit August 2019**: As of Tableau 2019.1 you can do remote debugging with your regular Chrome Browser. No need for Chromium debugging anymore. The process is still the same but you can use a normal Chrome browser now.
 
 ### Step 3: Do more with your Extension
 

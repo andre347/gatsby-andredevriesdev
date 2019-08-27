@@ -14,6 +14,8 @@ tags:
 
 ### Wes Bos posted a really useful [video](https://www.youtube.com/watch?v=rWc0xqroY4U) explaining how to scrape data from the web with NodeJS. In his second [video](https://www.youtube.com/watch?v=9dIHjegGeKo) he explained how to setup a schedule for this particular task. Something I'd never done before in Node so I thought this might come in useful in the future and therefore I should write a quick blog post about it.
 
+![How to create a Task Scheduler in NodeJS](https://res.cloudinary.com/dmim37dbf/image/upload/v1552678763/task_schedule.png)
+
 Whereas in Wes his video he grabs data from his own social media pages, I'm going to create a small app that runs on a schedule and downloads a random image every day at 6PM. I know right, who doesn't want to have a random image popping up on his or her disk every day?!
 
 A few things we need to install first:

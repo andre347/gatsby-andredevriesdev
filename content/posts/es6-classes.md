@@ -13,6 +13,8 @@ tags:
 
 ### ES6 (ECMAScript 2015) introduced a 'new' way of creating constructor functions and prototypes - classes. New is in quotes here because JavaScript actually doesn't have classes. They are what is commonly known as 'synthetical' sugar. However, I think this type of sugar makes it a lot easier to work with prototypes in JS. Let's take a look at how to create classes and why developers are using them in this blog post.
 
+![ES6: What are Classes?](https://res.cloudinary.com/dmim37dbf/image/upload/v1552570190/classes.png)
+
 If you start learning React, and also if you dive deeper into JavaScript, you will see a lot of things called classes and this is a part of the programming language that you certainly have to learn. **Classes** are _blueprints_ for JavaScript objects. This means that you can create one class and then re-use it. Developers that come from other programming languages (such as Java or Python) will recognise classes immediately. For JavaScript only developers these classes might look a bit foreign. It also took a while for me to actually wrap my head around them.
 
 ## Defining Classes

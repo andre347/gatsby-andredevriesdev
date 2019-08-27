@@ -4,7 +4,7 @@ template: "page"
 socialImage: "/media/image-4.jpg"
 ---
 
-The quickest way to get in touch with me is via the social media channels listed on the left hand side.
+The quickest way to get in touch with me is via the social media channels listed in the profile pane.
 
 ### Consulting
 

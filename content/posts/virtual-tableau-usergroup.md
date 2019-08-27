@@ -14,6 +14,8 @@ tags:
 
 ### A few weeks ago I was given the opportunity to speak at the very first Virtual Tableau Developers User Group.
 
+![Talk! Tableau Developers Virtual User Group](https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png)
+
 The short talk that I gave was titled 'Designing Effective and Recognisable Extension UIs' and mainly focussed on how your could utilise the ReactJS based UI Library that was released during the Tabeau Customer Conference in New Orleans.
 
 You can check out the recording below 👇Scroll a bit further for the slides.
