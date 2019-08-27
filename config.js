@@ -3,7 +3,7 @@
 module.exports = {
   url: 'https://andredevries.dev',
   pathPrefix: '/',
-  title: 'Blog by Andre de Vries',
+  title: 'Andre de Vries',
   subtitle: 'Tableau & Alteryx Consultant',
   copyright: '© All rights reserved.',
   disqusShortname: '',
