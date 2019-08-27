@@ -1,7 +1,7 @@
 {
   "version": "3.0.3",
-  "name": "gatsby-starter-lumen",
-  "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+  "name": "gatsby-andredevriesdev",
+  "description": "Static blogs by Andre de Vries",
   "main": "n/a",
   "scripts": {
     "develop": "yarn run clean && gatsby develop",
@@ -16,14 +16,12 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/andre347/gatsby-andredevriesdev",
+  "author": "Andre de Vries <aedevries19@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
     "graphql",
-    "netlify",
-    "netlify-cms",
     "pagination",
     "categories",
     "tags",
@@ -48,8 +46,6 @@
     "gatsby-plugin-flow": "^1.1.4",
     "gatsby-plugin-google-gtag": "^1.1.6",
     "gatsby-plugin-manifest": "^2.2.9",
-    "gatsby-plugin-netlify": "^2.1.10",
-    "gatsby-plugin-netlify-cms": "^4.1.11",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-optimize-svgs": "^1.0.3",
     "gatsby-plugin-react-helmet": "^3.1.5",
@@ -72,7 +68,6 @@
     "katex": "^0.11.0",
     "lodash": "^4.17.15",
     "moment": "^2.24.0",
-    "netlify-cms-app": "^2.9.7",
     "node-sass": "^4.12.0",
     "normalize-scss": "^7.0.1",
     "prismjs": "^1.17.1",
