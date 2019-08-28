@@ -7,7 +7,7 @@ module.exports = {
   subtitle: 'Tableau & Alteryx Consultant',
   copyright: '© All rights reserved.',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 3,
   googleAnalyticsId: 'UA-90804640-2',
   useKatex: false,
   menu: [

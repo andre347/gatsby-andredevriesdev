@@ -14,7 +14,7 @@ type Props = {
 };
 
 const SortCategory = (categories) => {
-  return categories.sort((a,b) => b.totalCount - a.totalCount )
+  return categories.sort((a,b) => b.totalCount - a.totalCount)
 }
 
 const Sidebar = ({ isIndex }: Props) => {
