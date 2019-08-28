@@ -3,7 +3,7 @@ title: How to quickly scaffold a Tableau Extensions Manifest file
 date: "2019-08-23T23:46:37.121Z"
 template: "post"
 draft: false
-category: "tableau"
+category: "Tableau"
 tags:
   - tableau
   - alteryx
