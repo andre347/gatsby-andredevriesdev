@@ -5,8 +5,19 @@
   margin-bottom: 2px;
 }
 
-.category-item {
-  color: $color-gray;
-  padding-right: 5px;
-  font-size: 0.9rem;
+:global(body.light-mode) {
+  .category-item {
+    color: $color-gray;
+    padding-right: 5px;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+  }
+}
+
+:global(body.dark-mode) {
+  .category-item {
+    color: $color-gray-dark;
+    padding-right: 5px;
+    font-size: 0.9rem;
+  }
 }
