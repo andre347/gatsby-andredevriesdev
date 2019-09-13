@@ -6,3 +6,9 @@ npm-debug.log
 .gatsby-context.js
 .idea
 gatsby-starter-lumen.iml
+# gatsby files
+.cache/
+public
+
+# Mac files
+.DS_Store
