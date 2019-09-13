@@ -87,12 +87,12 @@
       @include margin-bottom(0.5);
 
       &-link {
-        color: white;
+        color: $color-white;
 
         &:hover,
         &:focus {
-          color: white;
-          border-bottom: 1px solid white;
+          color: $color-white;
+          border-bottom: 1px solid $color-white;
         }
       }
     }
@@ -106,7 +106,7 @@
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;
-        color: white;
+        color: $color-white;
         font-weight: 600;
         text-transform: uppercase;
       }
