@@ -7,7 +7,6 @@ import styles from './Feed.module.scss';
 
 const Feed = ({ edges }) => {
   const darkMode = useDarkMode(false);
-  console.log(darkMode);
   return (
     <div className={!darkMode.value ? styles['feed'] : styles['feedDark']}>
       {edges.map((edge) => (

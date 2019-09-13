@@ -1,20 +1,17 @@
 // @flow strict
 import React from 'react';
 import styles from './Icon.module.scss';
+import useDarkMode from 'use-dark-mode';
 
-type Props = {
-  name: string,
-  icon: {
-    viewBox?: string,
-    path?: string
-  }
-};
+const Icon = ({ name, icon }) => {
+    const darkMode = useDarkMode(false);
 
-const Icon = ({ name, icon }: Props) => (
-  <svg className={styles['icon']} viewBox={icon.viewBox}>
-    <title>{name}</title>
-    <path d={icon.path} />
-  </svg>
-);
+    return (
+      <svg className={!darkMode.value ? styles['icon'] : styles['iconDark'] } viewBox={icon.viewBox}>
+        <title>{name}</title>
+        <path d={icon.path} />
+      </svg>
+  )
+}
 
 export default Icon;

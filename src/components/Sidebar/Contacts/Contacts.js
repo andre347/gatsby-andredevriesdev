@@ -1,16 +1,10 @@
-// @flow strict
 import React from 'react';
 import { getContactHref, getIcon } from '../../../utils';
 import Icon from '../../Icon';
 import styles from './Contacts.module.scss';
 
-type Props = {
-  contacts: {
-    [string]: string,
-  },
-};
 
-const Contacts = ({ contacts }: Props) => (
+const Contacts = ({ contacts }) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name) => (!contacts[name] ? null : (

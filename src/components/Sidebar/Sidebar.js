@@ -10,15 +10,12 @@ import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 import { useCategoriesList } from '../../hooks';
 
-type Props = {
-  isIndex?: boolean,
-};
 
 const SortCategory = (categories) => {
   return categories.sort((a,b) => b.totalCount - a.totalCount)
 }
 
-const Sidebar = ({ isIndex }: Props) => {
+const Sidebar = ({ isIndex }) => {
   const { author, copyright, menu } = useSiteMetadata();
   const categories = SortCategory(useCategoriesList());
   return (
