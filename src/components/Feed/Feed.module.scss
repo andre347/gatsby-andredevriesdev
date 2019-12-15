@@ -32,6 +32,13 @@
       @include margin-bottom(0.75);
     }
 
+    &-readingTime {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-left: 5px;
+    }
+
     &-meta {
       &-time {
         font-size: $typographic-small-font-size;

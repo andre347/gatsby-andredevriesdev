@@ -5,6 +5,7 @@ template: post
 draft: false
 description: With the release of Tableau’s latest instalment, version 2018.2, we now have the ability to use extensions in our dashboards. With extension we also see a new file extension appearing. Read all about it in this blog post!
 socialImage: https://www.theinformationlab.co.uk/wp-content/uploads/2018/08/tilBlog.png
+category: Tableau
 tags:
   - tableau
   - extensions
