@@ -6,7 +6,6 @@ import useDarkMode from "use-dark-mode";
 import styles from "./Feed.module.scss";
 
 const Feed = ({ edges }) => {
-  console.log(edges);
   const darkMode = useDarkMode(false);
   return (
     <div className={!darkMode.value ? styles["feed"] : styles["feedDark"]}>
@@ -61,10 +60,13 @@ const Feed = ({ edges }) => {
                 {edge.node.frontmatter.category}
               </Link>
             </span>
-            <span className={styles["feed__item-readingTime"]}>
-              {" "}
-              | {edge.node.fields.readingTime.text}
-            </span>
+            {edge.node.fields.readingTime.text ? (
+              <span className={styles["feed__item-readingTime"]}>
+                | {edge.node.fields.readingTime.text}
+              </span>
+            ) : (
+              <span></span>
+            )}
           </div>
           <h2 className={styles["feed__item-title"]}>
             <Link
