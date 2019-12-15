@@ -1,10 +1,10 @@
 ---
-title: "Alteryx’s Drive Time Engine"
+title: Alteryx’s Drive Time Engine
 date: 2017-06-27 15:00:00
 template: post
 draft: false
 description: In this blog post, I will walk you through setting up an environment in which you utilise the Alteryx Gallery API in order to embed apps and workflows. You will find code snippets that should help you understand how to use the Gallery API endpoints.
-category: "Alteryx"
+category: Alteryx
 socialImage: https://www.theinformationlab.co.uk/wp-content/uploads/2017/08/alteryx_logo.png
 tags:
   - alteryx

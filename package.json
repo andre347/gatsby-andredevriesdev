@@ -4,6 +4,7 @@
   "description": "Static blogs by Andre de Vries",
   "main": "n/a",
   "scripts": {
+    "now": "now && now alias",
     "develop": "yarn run clean && gatsby develop",
     "build": "yarn run clean && gatsby build",
     "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",

@@ -4,40 +4,41 @@ date: 2019/10/27
 template: post
 draft: false
 description: Tableau version 2019.4 will see the introduction of webhooks in the Tableau platform. Webhooks allow you to connect Tableau to your apps. This means that an action in Tableau can trigger another app.
-Tags: tableau
+tags:
+  - tableau
 socialImage: https://res.cloudinary.com/dmim37dbf/image/upload/v1572177353/webhooks-blog/tableau_webhooks.png
 category: Tableau
 ---
 
 ### Tableau version 2019.4 will see the introduction of webhooks in the Tableau platform. Webhooks allow you to connect Tableau to your apps. This means that an action in Tableau Server or Online can trigger another app. In the simplest setup you could for example send an e-mail whenever a new workbook is published, or more complex setups where you can integrate various Tableau triggers such as extract refreshes in a larger workflow. Webhooks open up a lot of exciting opportunities to automate your Tableau deployment. In this blog post I will outline what webhooks are, why you should use them and how you can use them in your Tableau setup.
 
-**_DISCLAIMER: Web hooks are currently in beta and will be released in version 2019.4_**
+**_DISCLAIMER: Webhooks are currently in beta and will be released in version 2019.4_**
 
 ![](https://res.cloudinary.com/dmim37dbf/image/upload/v1572182006/webhooks-blog/tableau_webhooks.png)
 
 ## What are webbooks?
 
-According to the official [Tableau's Github repository](https://github.com/tableau/webhooks-docs) web hooks let you _"build custom applications or workflows that react to events that happen in Tableau. For example, you could use webhooks to send an SMS or Slack notification any time a datasource refresh fails, or fire off a confetti cannon when a new workbook is created. For the initial release, webhooks are supported for a selected set of datasource and workbook events."_
+According to the official [Tableau's Github repository](https://github.com/tableau/webhooks-docs) webhooks let you _"build custom applications or workflows that react to events that happen in Tableau. For example, you could use webhooks to send an SMS or Slack notification any time a datasource refresh fails, or fire off a confetti cannon when a new workbook is created. For the initial release, webhooks are supported for a selected set of datasource and workbook events."_
 
-Even though webhooks are part of the developer programme of Tableau, you don't need a coding background at all to use them. Nowadays there are several automation platforms such as [Zapier](https://zapier.com/), [Microsoft Flow](https://flow.microsoft.com/) or [IFTTT](https://ifttt.com/) that you can fully configure without writing a single line of code. This means that integrating web hooks in your Tableau ecosystem is accessible for all.
+Even though webhooks are part of the developer programme of Tableau, you don't need a coding background at all to use them. Nowadays there are several automation platforms such as [Zapier](https://zapier.com/), [Microsoft Flow](https://flow.microsoft.com/) or [IFTTT](https://ifttt.com/) that you can fully configure without writing a single line of code. This means that integrating webhooks in your Tableau ecosystem is accessible for all.
 
 ![](https://res.cloudinary.com/dmim37dbf/image/upload/v1572174306/webhooks-blog/automating.png)
 
-What all these automation services basically do is create a 'cause and effect' link between web services that you use. Outside Tableau and especially with the rage that's called 'quantified self', we see lots of integrations where you can trigger events based on your own behaviour. For example, several of my colleagues use these platforms to automate a list of new Twitter followers in Google Sheets, automatically categorise their expenditures or use Alexa commands to push todos in their [todoist](https://todoist.com/) shopping list. With the introduction of web hooks in version 2019.4 we can now add Tableau to this list of integrations. I can't wait to add Tableau Server to my family WhatsApps group and spam them with extract refresh notifications.
+What all these automation services basically do is create a 'cause and effect' link between web services that you use. Outside Tableau and especially with the rage that's called 'quantified self', we see lots of integrations where you can trigger events based on your own behaviour. For example, several of my colleagues use these platforms to automate a list of new Twitter followers in Google Sheets, automatically categorise their expenditures or use Alexa commands to push todos in their [todoist](https://todoist.com/) shopping list. With the introduction of webhooks in version 2019.4 we can now add Tableau to this list of integrations. I can't wait to add Tableau Server to my family WhatsApps group and spam them with extract refresh notifications.
 
-## Why should you use web hooks?
+## Why should you use webhooks?
 
-You are probably wondering: don't we already have subscriptions in Tableau Server? Yes, that is correct. Subscriptions allow you to 'subscribe' to a view and you can then tell it to email you at a certain time. As a datasource owner you also receive emails when your refreshes have failed. However, these subscriptions are different than web hooks. First of all, web hooks can now be integrated with any other tool - rather than an email when an extract refresh fails, you can now send a message into Slack and the right team can take a look. Secondly, web hooks are event driven, whilst subscriptions are setup on a schedule. You can take action the moment stuff happens on your Tableau Server.
+You are probably wondering: don't we already have subscriptions in Tableau Server? Yes, that is correct. Subscriptions allow you to 'subscribe' to a view and you can then tell it to email you at a certain time. As a datasource owner you also receive emails when your refreshes have failed. However, these subscriptions are different than webhooks. First of all, webhooks can now be integrated with any other tool - rather than an email when an extract refresh fails, you can now send a message into Slack and the right team can take a look. Secondly, webhooks are event driven, whilst subscriptions are setup on a schedule. You can take action the moment stuff happens on your Tableau Server.
 
 In the initial release you have access to the following events:
 
 ![](https://res.cloudinary.com/dmim37dbf/image/upload/v1572259136/webhooks-blog/webhookss.png)
 
-Future releases will have more events and according to the Tableau development team, the plan is to move almost all Tableau Server elements into web hooks such as actions when new users are being added or projects created.
+Future releases will have more events and according to the Tableau development team, the plan is to move almost all Tableau Server elements into webhooks such as actions when new users are being added or projects created.
 
-## How can you use web hooks?
+## How can you use webhooks?
 
-There is one prerequisite for using Tableau webhooks and that is that you need to be authenticated as a side administrator on your Tableau Server or Online instance. If you want to test out web hooks but you are not on version 2019.4 yet then you can join the Tableau Developer program [here](https://developer.tableau.com/). When you join you get a free Tableau Online site which is always kept up to to date to the latest beta. You need a few tools to get started:
+There is one prerequisite for using Tableau webhooks and that is that you need to be authenticated as a side administrator on your Tableau Server or Online instance. If you want to test out webhooks but you are not on version 2019.4 yet then you can join the Tableau Developer program [here](https://developer.tableau.com/). When you join you get a free Tableau Online site which is always kept up to to date to the latest beta. You need a few tools to get started:
 
 1. Download [Postman](https://www.getpostman.com). This tool allows you to easily work with the Tableau REST API and is the place where you create and manage your webhooks.
 2. We don't want to write code so you need to create an account at either IFTTT, Zapier or Microsoft Flow. There are probably many other automation tools out there. I only have experience with the first two though. IFTTT is very easy to setup but Zapier is more aimed towards integrating business applications. Zapier is also a bit more customisable than IFTTT. But then the downside of Zapier is that you need to pay for it, whilst IFTTT is free of charge.
