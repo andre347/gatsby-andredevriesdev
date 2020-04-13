@@ -54,6 +54,7 @@
     "gatsby-plugin-sharp": "^2.3.7",
     "gatsby-plugin-sitemap": "^2.2.24",
     "gatsby-plugin-use-dark-mode": "^1.1.2",
+    "gatsby-prismjs-dracula": "^0.1.15",
     "gatsby-remark-autolink-headers": "^2.1.21",
     "gatsby-remark-copy-linked-files": "^2.1.33",
     "gatsby-remark-external-links": "0.0.4",
