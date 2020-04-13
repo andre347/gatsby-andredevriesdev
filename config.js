@@ -1,39 +1,39 @@
-'use strict';
+"use strict";
 
 module.exports = {
-  url: 'https://andredevries.dev',
-  pathPrefix: '/',
-  title: 'Andre de Vries',
-  subtitle: 'Tableau & Alteryx Consultant',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  url: "https://andredevries.dev",
+  pathPrefix: "/",
+  title: "Andre de Vries",
+  subtitle: "Tableau & Alteryx Consultant",
+  copyright: "© All rights reserved.",
+  disqusShortname: "",
   postsPerPage: 3,
-  googleAnalyticsId: 'UA-90804640-2',
+  googleAnalyticsId: "UA-90804640-2",
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
-      path: '/'
+      label: "Articles",
+      path: "/"
     },
     {
-      label: 'About me',
-      path: '/pages/about'
+      label: "About me",
+      path: "/pages/about"
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: "Contact me",
+      path: "/pages/contacts"
     }
   ],
   author: {
-    name: 'Andre de Vries',
-    photo: '/photo.png',
-    bio: 'Educator & Developer.',
+    name: "Andre de Vries",
+    photo: "/photo.png",
+    bio: "Educator & Developer.",
     contacts: {
-      email: '',
-      twitter: 'andre347_',
-      github: 'andre347',
-      rss: '',
-      linkedin: 'andreelzedevries',
+      email: "",
+      twitter: "andre347_",
+      github: "andre347",
+      linkedin: "andreelzedevries",
+      rss: "AndredeVries"
     }
   }
 };
