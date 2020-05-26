@@ -33,7 +33,8 @@ module.exports = {
       twitter: "andre347_",
       github: "andre347",
       linkedin: "andreelzedevries",
-      rss: "AndredeVries"
+      rss: "AndredeVries",
+      youtube: "AndredeVries"
     }
   }
 };
