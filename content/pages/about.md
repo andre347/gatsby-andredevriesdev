@@ -6,7 +6,7 @@ socialImage: "/image.png"
 
 ### Tableau & Alteryx
 
-Hi! I am Andre 👋 and I am a Solution Engineer. I currently work for [The Information Lab](https://theinformationlab.co.uk) in London. My main role there is to help people see and understand their data by using these two industry leading data analytics tools. In the last few years I've been focusing more and more on building and delivering educational content around data & data visualisation. I am also involved with our [Dataschool](http://www.thedataschool.co.uk) - this is a 2-year program focused on creating the next batch of great data analysts. At the Dataschool I teach various topics, ranging from 'Working with APIs' to 'Introduction to Regular Expressions'. I am also a Certified AWS Cloud Practitioner ☁️.
+Hi! I am Andre 👋 and I am a Solutions Engineer. I currently work for [The Information Lab](https://theinformationlab.co.uk) in London. My main role there is to help people see and understand their data by using these two industry leading data analytics tools. In the last few years I've been focusing more and more on building and delivering educational content around data & data visualisation. I am also involved with our [Dataschool](http://www.thedataschool.co.uk) - this is a 2-year program focused on creating the next batch of great data analysts. At the Dataschool I teach various topics, ranging from 'Working with APIs' to 'Introduction to Regular Expressions'. I am also a Certified AWS Cloud Practitioner and an AWS Certified Developer ☁️.
 
 ### Web Development
 
